@@ -2,12 +2,13 @@
     width: min(100%, 1440px);
     margin: auto;
     display: flex;
+    display: block;
     
     
+    /* aq daiwyo header */
 }
 .header_class {
     background: #758BFD;
-    width: 1440px;
     padding: 53px 100px;
     margin: auto;
     display: flex;
@@ -16,13 +17,12 @@
 }
  .home_image {
     margin-right: 370px;
+    display: flex;
 
  }
 
 .header_nav {
- width: 400px;
-    
-    
+ margin: auto;
    
 }
 .header_nav_ul{
@@ -33,6 +33,7 @@
 .header_nav_ul_li {
     font-size: 24px;
     font-weight: 500;
+    font-family: "Ubuntu", sans-serif;
     line-height: 27.58px;
     color: #DDEAF8; 
    
@@ -43,9 +44,100 @@
 
 }
 .margin {
-    margin-inline: 50px;
+    margin-inline: 40px;
 }
 .active {
     color: #133B3A;
     
 }
+
+.user_img {
+    margin: auto;
+    margin-left: 330px;
+    display: flex;
+}
+  /* aq daiwyo sectiom */
+.section_conteiner{
+    width: 1244px;
+    height: 738px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.section_h2 {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36.77px;
+    color: #27187F;
+    margin-top: 98px;
+    margin-bottom: 68px ;
+    margin-left: 100px;
+    
+}
+
+  /* daiwyo article */
+ .section_article {
+    width: 400px;
+    height: 354px;
+    margin: auto;
+    background: #DDEAF8;
+    padding: 30px;
+    border-radius: 10px;
+
+    
+
+ }
+
+ .article_photo {
+    width: 340px;
+    height: 220px;
+
+ }
+  .middle_photo {
+   justify-content: space-evenly;
+  }
+
+  button {
+    width: 145px;
+    height: 44px;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    background: #758BFD;
+    border-radius: 10px;
+    margin-top: 30px;
+    color: aliceblue;
+
+  }
+ 
+  /* aq daiwyo foter */
+  .footer_class {
+    margin-top: 94px;
+    background: #758BFD;
+
+  }
+  .footer_h3 {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #FFFFFF;
+    width: 154px;
+    padding-top: 70px;
+    border-bottom: 3px solid rgb(253, 248, 248);
+    margin: auto;
+    
+
+  }
+  .footer_nav_ul {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 70px;
+  }
+ .middle_icon {
+    margin-inline: 32px;
+    
+ }
